@@ -86,6 +86,7 @@ echo ECS_CLUSTER=CE001C1D74FE3-53239f7c4017500_Batch_db1f2a3c-bafa-3f50-9fde-229
 +---------------+-----------------------+
 
 ```
+```
 c5.large        3731        8.91%
 c5.xlarge       7623        6.94%
 c5.2xlarge      15574       4.94%
