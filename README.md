@@ -120,13 +120,13 @@ c5.xlarge       7623
 echo "(2^14-15574)/2^14*100" | bc -l
 
 ## Launch with AWS Batch
-
+```
 c5.lrage        3700  --> Expected
 m5.large        7648  --> diff 115; 115-32=83? (OS/EC2?)
 r5.large        15712 --> 31
 m5.xlarge       15712 --> diff 137?
-
-
+```
+```
 sh-4.2$ cat /proc/cpuinfo | grep Intel
 vendor_id	: GenuineIntel
 
@@ -166,3 +166,4 @@ sh-4.2$ free -m
               total        used        free      shared  buff/cache   available
 Mem:           7679         206        7080           0         392        7255
 Swap:             0           0           0
+```
